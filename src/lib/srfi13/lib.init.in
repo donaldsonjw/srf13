@@ -1,0 +1,12 @@
+(declare-library! 'srfi13
+   :version "@VERSION@"
+   :srfi '(srfi13)
+   :basename "srfi13"
+   :module-eval 'srfi13_make_lib)
+
+(cond-expand
+   (bigloo-compile
+    (use-library! 'srfi14))
+   (bigloo-eval
+    #unspecified))
+
