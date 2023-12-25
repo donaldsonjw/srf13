@@ -4,8 +4,8 @@
   The srfi13 library is an implementation of [[https://srfi.schemers.org/srfi-13/srfi-13.html][SRFI 13]] for Bigloo
   scheme. It is an adaption of the sample implentation.
 
-  Both the native and jvm backends are supported. It depends on SRFI
-  14 and the test suite is based on [[https://github.com/donaldsonjw/srfi64][SRFI 64]]. Both need to be installed
+  Both the native and jvm backends are supported. It depends on [[https://github.com/donaldsonjw/srfi14][SRFI
+  14]] and the test suite is based on [[https://github.com/donaldsonjw/srfi64][SRFI 64]]. Both need to be installed
   before running.
   
 ** Building
